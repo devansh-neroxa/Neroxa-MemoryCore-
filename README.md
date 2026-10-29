@@ -1,17 +1,8 @@
-"""
-Project: Neroxa - Memory Core
-Description: A simple utility to clean background memory.
-"""
+# Neroxa-MemoryCore
 
-import gc
-import sys
+A minimal, zero-dependency drop-in utility designed to eliminate memory latency and optimize heavy compute loops.
 
-class NeroxaOptimizer:
-    @staticmethod
-    def flush_memory():
-        gc.collect()
-        print("[Neroxa Core] Memory flushed successfully.")
-        return {"status": "optimized", "signature": "0xShadowCore"}
-
-if __name__ == "__main__":
-    NeroxaOptimizer.flush_memory()
+## Features
+- Zero overhead.
+- Plug-and-play architecture.
+- Built for high-performance scale.
